@@ -91,6 +91,11 @@ namespace APBDcw2
                 XmlSerializer serializer = new XmlSerializer(typeof(School));
                 serializer.Serialize(writer, school);
             }
+            if (format == "json")
+            {
+
+            }
+
         }
 
     }
